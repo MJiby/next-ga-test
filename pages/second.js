@@ -9,6 +9,11 @@ const Second = () => {
 
     return (
         <>
+            <Head>
+                <title>두번째 페이지</title>
+                <meta name="description" content="second" />
+                <link rel="icon" href="/favicon.ico" />
+            </Head>
             <div className={styles.container}>
                 <main className={styles.main}>
                     <Link href="/third">

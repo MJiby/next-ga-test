@@ -9,6 +9,11 @@ const End = () => {
 
     return (
         <>
+            <Head>
+                <title>마지막 페이지</title>
+                <meta name="description" content="end" />
+                <link rel="icon" href="/favicon.ico" />
+            </Head>
             <div className={styles.container}>
                 <main className={styles.main}>
                     {/* <Link href="/">
